@@ -821,6 +821,21 @@ body {
 /* Large, Desktop Full HD / Широкоугольные мониторы */
 @media (max-width: 1920px) {}
 
+@media (max-height: 1100px) {
+    .section--intro {min-height: 500px;}
+    .intro__inner {margin: 250px 0px 50px;}
+} 
+
+@media (max-height: 1025px) {
+    .intro__inner {margin: 150px 0px 50px;}
+} 
+@media (max-height: 930px) {
+    .intro__subtitle {margin: 30px 0 45px;}
+    .intro__line {margin-bottom: 20px;}
+    .intro__btn {margin-top: 25px;}
+} 
+
+
 /* Desktop HD+ / Широкоугольные мониторы */
 @media (max-width: 1680px) {
     /*     l o g o     */
@@ -1072,6 +1087,8 @@ body {
 
 /* Tablet / Планшеты */
 /* 992 + 30(margin*2) */
+
+
 @media (max-width: 1022px) {
     /*     i n t r o     */
         
@@ -1100,6 +1117,12 @@ body {
         .intro__image img {
             object-position: 90%;
         }
+}
+@media (max-width: 1022px) and (max-height: 1100px) {
+    .intro__inner {margin: 210px auto;}
+}
+@media (max-width: 1022px) and (max-height: 1000px) {
+    .intro__inner {margin: 170px auto;}
 }
 
 @media (max-width: 930px) {
